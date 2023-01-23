@@ -42,11 +42,6 @@
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://yos-x.github.io/index_bak</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
         <loc>https://yos-x.github.io/docs/%E5%BF%BB%E8%A7%86Down/desc</loc>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>

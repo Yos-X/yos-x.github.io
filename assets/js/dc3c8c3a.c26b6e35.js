@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkyos_web=self.webpackChunkyos_web||[]).push([[825],{4274:s=>{s.exports=JSON.parse('{"label":"Android","permalink":"/blog/tags/android","allTagsPath":"/blog/tags","count":1}')}}]);

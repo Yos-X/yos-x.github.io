@@ -28,8 +28,8 @@
     <link rel="alternate" type="application/atom+xml" href="/blog/atom.xml"
           title="YosX 枫灵剑影 Atom Feed">
     <link rel="stylesheet" href="/assets/css/styles.1b2b551c.css">
-    <link rel="preload" href="/assets/js/runtime~main.b9d3a163.js" as="script">
-    <link rel="preload" href="/assets/js/main.a893ef7f.js" as="script">
+    <link rel="preload" href="/assets/js/runtime~main.c4432b1d.js" as="script">
+    <link rel="preload" href="/assets/js/main.b51fb80b.js" as="script">
 </head>
 <body class="navigation-with-keyboard">
 <script>
@@ -173,9 +173,25 @@
                                         <h3 class="anchor anchorWithStickyNavbar_LWe7" id="登录">登录<a
                                                 class="hash-link" href="#登录" title="标题的直接链接">​</a>
                                         </h3>
-                                        <p>本软件目前支持单账号登录，通过内嵌网页实现，将 <code>Cookie</code> 保存在本地。</p>
+                                        <p>本软件目前支持单账号登录，登录成功后将 <code>Cookie</code> 保存在本地。</p><h4
+                                            class="anchor anchorWithStickyNavbar_LWe7" id="登录方式">
+                                        登录方式<a class="hash-link" href="#登录方式" title="标题的直接链接">​</a>
+                                    </h4>
+                                        <p>软件支持 <code>网页登录</code> 和 <code>账号凭证登录</code> 两种登录方式。</p>
+                                        <h4 class="anchor anchorWithStickyNavbar_LWe7" id="账号凭证">
+                                            账号凭证<a class="hash-link" href="#账号凭证"
+                                                   title="标题的直接链接">​</a></h4>
+                                        <p>账号凭证由忻视 Down 将登录 Cookie 通过加密算法加密而成。拥有该账户凭证的用户可在忻视 Down
+                                            使用您的账号进行部分操作，请勿将账号凭证发送给不信任的人。</p><h4
+                                            class="anchor anchorWithStickyNavbar_LWe7" id="退出账号">
+                                        退出账号<a class="hash-link" href="#退出账号" title="标题的直接链接">​</a>
+                                    </h4>
                                         <p>如果不想使用当前账号，可在软件主页单击账号一栏，在弹出的对话框中选择 <code>退出</code>
-                                            即可退出当前账号。</p>
+                                            即可退出当前账号。</p><h4
+                                            class="anchor anchorWithStickyNavbar_LWe7"
+                                            id="关于登录安全问题">关于登录安全问题<a class="hash-link"
+                                                                     href="#关于登录安全问题"
+                                                                     title="标题的直接链接">​</a></h4>
                                         <p>软件不会将账号信息上传到软件服务器，但会保存在私有目录以供下次自动登录。</p>
                                         <h3 class="anchor anchorWithStickyNavbar_LWe7" id="视频解析">
                                             视频解析<a class="hash-link" href="#视频解析"
@@ -185,24 +201,30 @@
                                             <li><strong>软件全局不支持 <code>AV号</code> ，如果想解析
                                                 <code>AV号</code>，请参考本页下一目。</strong></li>
                                             <li><strong>软件目前仅支持解析单稿件视频，暂不支持番剧、电影等解析</strong></li>
+                                            <li><strong>目前视频解析内可下载的：视频、音频、字幕（自动转换格式）</strong></li>
                                         </ul>
-                                        <p>软件会自动解析剪切板中/粘贴到解析框中的文本，从中提取出 <code>BV号</code>
-                                            进行解析，但不能保证所有情况适用。</p>
-                                        <p>所以，如果确定 <code>BV号</code> 没有问题，请手动将 <code>BV号</code>
-                                            精简至最简格式，再次解析。</p>
-                                        <p><strong>目前视频解析内可下载的：视频、字幕（自动转换格式）</strong></p>
+                                        <h4 class="anchor anchorWithStickyNavbar_LWe7" id="手动填入">
+                                            手动填入<a class="hash-link" href="#手动填入"
+                                                   title="标题的直接链接">​</a></h4>
+                                        <p>将软件支持的链接，手动填入视频解析编辑框中即可单击解析按钮即可进行解析</p><h4
+                                            class="anchor anchorWithStickyNavbar_LWe7" id="剪切板嗅探">
+                                        剪切板嗅探<a class="hash-link" href="#剪切板嗅探"
+                                                title="标题的直接链接">​</a></h4>
+                                        <p>软件将会自动嗅探剪切板内链接，从中提取出 <code>BV号</code>
+                                            进行解析，但不能保证所有情况适用。所以，如果确定 <code>BV号</code> 没有问题，请手动将
+                                            <code>BV号</code> 简化至最简格式，再次解析。</p><h4
+                                            class="anchor anchorWithStickyNavbar_LWe7" id="三方调用">
+                                        三方调用<a class="hash-link" href="#三方调用" title="标题的直接链接">​</a>
+                                    </h4>
+                                        <p>软件支持从 <code>官方客户端</code> 内，通过视频详情页的 <code>分享 -&gt; 更多 -&gt;
+                                            忻视Down</code> 调起软件解析视频，也可将链接 <code>复制到剪切板</code>，回到软件后自动调起解析。
+                                        </p>
                                         <h3 class="anchor anchorWithStickyNavbar_LWe7" id="bvav号互转">
                                             BV、AV号互转<a class="hash-link" href="#bvav号互转"
                                                        title="标题的直接链接">​</a></h3>
-                                        <p>将使用官方API，支持 <code>BV号</code> 与 <code>AV号</code> 互转。</p>
+                                        <p>将使用官方 API，支持 <code>BV号</code> 与 <code>AV号</code> 互转。</p>
                                         <p>如果想解析 <code>AV号</code>，可通过此功能，将 <code>AV号</code> 转为
-                                            <code>BV号</code> 再进行解析。</p>
-                                        <h2 class="anchor anchorWithStickyNavbar_LWe7" id="拓展功能">
-                                            拓展功能<a class="hash-link" href="#拓展功能"
-                                                   title="标题的直接链接">​</a></h2>
-                                        <p>软件支持从官方客户端内，通过视频详情页的 <code>分享 -&gt; 更多 -&gt;
-                                            忻视Down</code> 调起软件解析视频，也可将链接 <code>复制到剪切板</code>，回到软件后自动调起解析。
-                                        </p></div>
+                                            <code>BV号</code> 再进行解析。</p></div>
                                 </article>
                                 <nav class="pagination-nav docusaurus-mt-lg" aria-label="文档分页导航"><a
                                         class="pagination-nav__link pagination-nav__link--prev"
@@ -232,9 +254,6 @@
                                                    class="table-of-contents__link toc-highlight">BV、AV号互转</a>
                                             </li>
                                         </ul>
-                                    </li>
-                                    <li><a href="#拓展功能"
-                                           class="table-of-contents__link toc-highlight">拓展功能</a>
                                     </li>
                                 </ul>
                             </div>
@@ -289,7 +308,7 @@
         </div>
     </footer>
 </div>
-<script src="/assets/js/runtime~main.b9d3a163.js"></script>
-<script src="/assets/js/main.a893ef7f.js"></script>
+<script src="/assets/js/runtime~main.c4432b1d.js"></script>
+<script src="/assets/js/main.b51fb80b.js"></script>
 </body>
 </html>

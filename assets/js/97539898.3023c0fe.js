@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkyos_web_new=self.webpackChunkyos_web_new||[]).push([[6876],{4012:e=>{e.exports=JSON.parse('{"label":"Kotlin","permalink":"/blog/tags/kotlin","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
